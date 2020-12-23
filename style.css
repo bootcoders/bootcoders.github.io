@@ -236,16 +236,61 @@ Portfolio Page
 .titile {
     margin-bottom: 40px;
 }
-
-.single-portfolio {
+.single__portfolio{
     background-color: #fff;
-    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
-.portfolio-img {
+.single__portfolio h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5CC1A9;
+    padding: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.single__portfolio a{
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
     position: relative;
+    padding:5px 10px;
+    color: #666;
+}
+.project__short_prev{
     overflow: hidden;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: -200px;
+    top: 32px;
+    display: none;
+    z-index: 99999;
+}
+.single__portfolio a:hover .project__short_prev{
+    display: block;
+}
+.project__short_prev span{
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    background-color: #5CC1A9;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.project__short_prev img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .portfolio-img a.port-overlay {
