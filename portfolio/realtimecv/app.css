@@ -2425,8 +2425,11 @@ body {
     background-color: #fff;
     padding: 50px 60px;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.05);
+    
 }
-
+.cv-builder-section{
+    margin-bottom: 220px;
+}
 .cv_tem_row {
     display: flex;
     flex-wrap: wrap;
